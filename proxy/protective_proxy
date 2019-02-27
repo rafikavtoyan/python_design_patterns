@@ -1,0 +1,7 @@
+This proxy controls access to the sensitive matter object of  RealSubject . For example, in today’s
+world of distributed systems, web applications have multiple services that work together
+to provide functionality. Now, in such systems, an authentication service acts as a
+protective proxy server that is responsible for authentication and authorization. In this
+case, Proxy internally helps in protecting the core functionality of the website for
+unrecognized or unauthorized agents. Thus, the surrogate object checks that the caller has
+access permissions required to forward the request.

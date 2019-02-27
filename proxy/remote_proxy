@@ -1,0 +1,8 @@
+A remote proxy can be defined in the following terms. It provides a local representation of
+a real object that resides on a remote server or different address space. For example, you
+want to build a monitoring system for your application that has multiple web servers, DB
+servers, celery task servers, caching servers, among others. If we want to monitor the CPU
+and disk utilization of these servers, we need to have an object that is available in the
+context of where the monitoring application runs but can perform remote commands to get
+the actual parameter values. In such cases, having a remote proxy object that is a local
+representation of the remote object would help.

@@ -1,0 +1,7 @@
+It is a placeholder for objects that are
+very heavy to instantiate. For example, you want to load a large image on your website.
+Now this request will take a long time to load. Typically, developers will create a
+placeholder icon on the web page suggesting that there’s an image. However, the image
+will only be loaded when the user actually clicks on the icon thus saving the cost of
+loading a heavy image in memory. Thus, in virtual proxies, the real object is created when
+the client first requests or accesses the object.

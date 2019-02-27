@@ -1,0 +1,7 @@
+Smart proxies interpose additional actions when an object is accessed. For example,
+consider that there’s a core component in the system that stores states in a centralized
+location. Typically, such a component gets called by multiple different services to
+complete their tasks and can result in issues with shared resources. Instead of services
+directly invoking the core component, a smart proxy is built-in and checks whether the
+real object is locked before it is accessed in order to ensure that no other object can change
+it.
