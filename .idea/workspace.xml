@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03216841-7ad5-432e-bca2-d0c0cf36974b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/command/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/command/command.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/command/command_stock_exchange.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/command/command_wizard_rw.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/observer/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/observer/observer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/observer/observer_news_agency_rw.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/mvc_marketing_rw.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/mvc_with_components.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template_method/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template_method/template_method.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template_method/template_method_pres.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template_method/template_method_trip_rw.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,9 +23,12 @@
     <SUITE FILE_PATH="coverage/python_design_patterns$observer_news_agency_rw.coverage" NAME="observer_news_agency_rw Coverage Results" MODIFIED="1551340651368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/observer" />
     <SUITE FILE_PATH="coverage/python_design_patterns$simple_factory.coverage" NAME="simple_factory Coverage Results" MODIFIED="1551167287438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/factory" />
     <SUITE FILE_PATH="coverage/python_design_patterns$lazy_instantiation.coverage" NAME="lazy_instantiation Coverage Results" MODIFIED="1550734026560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/singleton" />
+    <SUITE FILE_PATH="coverage/python_design_patterns$template_method.coverage" NAME="template_method Coverage Results" MODIFIED="1551423746035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/template_method" />
     <SUITE FILE_PATH="coverage/python_design_patterns$db_singleton.coverage" NAME="db_singleton Coverage Results" MODIFIED="1551082132610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/singleton" />
     <SUITE FILE_PATH="coverage/python_design_patterns$facade.coverage" NAME="facade Coverage Results" MODIFIED="1551252769850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/facade" />
     <SUITE FILE_PATH="coverage/python_design_patterns$command_wizard_rw.coverage" NAME="command_wizard_rw Coverage Results" MODIFIED="1551341845414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/command" />
+    <SUITE FILE_PATH="coverage/python_design_patterns$template_method_trip_rw.coverage" NAME="template_method_trip_rw Coverage Results" MODIFIED="1551425088143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/template_method" />
+    <SUITE FILE_PATH="coverage/python_design_patterns$mvc_marketing_rw.coverage" NAME="mvc_marketing_rw Coverage Results" MODIFIED="1551443158003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mvc" />
     <SUITE FILE_PATH="coverage/python_design_patterns$command.coverage" NAME="command Coverage Results" MODIFIED="1551342151743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/command" />
     <SUITE FILE_PATH="coverage/python_design_patterns$singletons_and_metaclasses.coverage" NAME="singletons_and_metaclasses Coverage Results" MODIFIED="1550838134281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/singleton" />
     <SUITE FILE_PATH="coverage/python_design_patterns$factory_method.coverage" NAME="factory_method Coverage Results" MODIFIED="1551167684777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/factory" />
@@ -34,7 +37,9 @@
     <SUITE FILE_PATH="coverage/python_design_patterns$observer.coverage" NAME="observer Coverage Results" MODIFIED="1551339292280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/observer" />
     <SUITE FILE_PATH="coverage/python_design_patterns$python_stock_exchange.coverage" NAME="python_stock_exchange Coverage Results" MODIFIED="1551346146063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/command" />
     <SUITE FILE_PATH="coverage/python_design_patterns$singleton.coverage" NAME="singleton Coverage Results" MODIFIED="1550733632861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_design_patterns$mvc_with_components.coverage" NAME="mvc_with_components Coverage Results" MODIFIED="1551443353521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mvc" />
     <SUITE FILE_PATH="coverage/python_design_patterns$proxy_peymant_rw.coverage" NAME="proxy_peymant_rw Coverage Results" MODIFIED="1551263193958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proxy" />
+    <SUITE FILE_PATH="coverage/python_design_patterns$template_method_pres.coverage" NAME="template_method_pres Coverage Results" MODIFIED="1551423964644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/template_method" />
     <SUITE FILE_PATH="coverage/python_design_patterns$hHealthcheck.coverage" NAME="hHealthcheck Coverage Results" MODIFIED="1551105896907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/singleton" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -43,36 +48,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="simple_factory.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factory/simple_factory.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="factory_method.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factory/factory_method.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="46" column="11" lean-forward="false" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="abstract_factory.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factory/abstract_factory.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="observer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/observer/observer.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -116,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="command_stock_exchange.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="command_stock_exchange.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/command/command_stock_exchange.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="522">
@@ -126,25 +101,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smart_proxy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proxy/smart_proxy">
+      <file leaf-file-name="template_method.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template_method/template_method.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="503">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="proxy_peymant_rw.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proxy/proxy_peymant_rw.py">
+      <file leaf-file-name="template_method_pres.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template_method/template_method_pres.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-              <folding>
-                <marker date="1551263000396" expanded="true" signature="389:495" ph="..." />
-                <marker date="1551263000396" expanded="true" signature="871:993" ph="..." />
-              </folding>
+            <state relative-caret-position="449">
+              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template_method_trip_rw.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template_method/template_method_trip_rw.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="557">
+              <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mvc_marketing_rw.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/mvc_marketing_rw.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mvc_with_components.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mvc/mvc_with_components.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -194,6 +196,12 @@
         <option value="$PROJECT_DIR$/command/command_wizard_rw.py" />
         <option value="$PROJECT_DIR$/command/command.py" />
         <option value="$PROJECT_DIR$/command/python_stock_exchange.py" />
+        <option value="$PROJECT_DIR$/template_method/template_method.py" />
+        <option value="$PROJECT_DIR$/template_method/template_method_pres.py" />
+        <option value="$PROJECT_DIR$/template_method/template_method_trip_rw.py" />
+        <option value="$PROJECT_DIR$/mvc.py" />
+        <option value="$PROJECT_DIR$/mvc/mvc_marketing_rw.py" />
+        <option value="$PROJECT_DIR$/mvc/mvc_with_components.py" />
       </list>
     </option>
   </component>
@@ -247,7 +255,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="command" />
+              <option name="myItemId" value="mvc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -271,93 +279,93 @@
       <recent name="$PROJECT_DIR$/singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.python_stock_exchange">
-    <configuration default="false" name="observer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.mvc_with_components">
+    <configuration default="false" name="template_method" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/observer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/template_method" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_design_patterns" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/observer/observer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/template_method/template_method.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="observer_news_agency_rw" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="template_method_pres" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/observer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/template_method" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_design_patterns" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/observer/observer_news_agency_rw.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/template_method/template_method_pres.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="command_wizard_rw" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="template_method_trip_rw" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/command" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/template_method" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_design_patterns" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/command/command_wizard_rw.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/template_method/template_method_trip_rw.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="command" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="mvc_marketing_rw" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/command" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mvc" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_design_patterns" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/command/command.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mvc/mvc_marketing_rw.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="python_stock_exchange" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="mvc_with_components" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/command" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mvc" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_design_patterns" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/command/command_stock_exchange.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mvc/mvc_with_components.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -627,19 +635,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.observer" />
-      <item index="1" class="java.lang.String" itemvalue="Python.observer_news_agency_rw" />
-      <item index="2" class="java.lang.String" itemvalue="Python.command_wizard_rw" />
-      <item index="3" class="java.lang.String" itemvalue="Python.command" />
-      <item index="4" class="java.lang.String" itemvalue="Python.python_stock_exchange" />
+      <item index="0" class="java.lang.String" itemvalue="Python.template_method" />
+      <item index="1" class="java.lang.String" itemvalue="Python.template_method_pres" />
+      <item index="2" class="java.lang.String" itemvalue="Python.template_method_trip_rw" />
+      <item index="3" class="java.lang.String" itemvalue="Python.mvc_marketing_rw" />
+      <item index="4" class="java.lang.String" itemvalue="Python.mvc_with_components" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.python_stock_exchange" />
-        <item index="1" class="java.lang.String" itemvalue="Python.command" />
-        <item index="2" class="java.lang.String" itemvalue="Python.command_wizard_rw" />
-        <item index="3" class="java.lang.String" itemvalue="Python.observer_news_agency_rw" />
-        <item index="4" class="java.lang.String" itemvalue="Python.observer" />
+        <item index="0" class="java.lang.String" itemvalue="Python.mvc_with_components" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mvc_marketing_rw" />
+        <item index="2" class="java.lang.String" itemvalue="Python.template_method_trip_rw" />
+        <item index="3" class="java.lang.String" itemvalue="Python.template_method_pres" />
+        <item index="4" class="java.lang.String" itemvalue="Python.template_method" />
       </list>
     </recent_temporary>
   </component>
@@ -658,7 +666,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -666,7 +674,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27453026" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -894,6 +902,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template_method/template_method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template_method/template_method_pres.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template_method/template_method_trip_rw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/mvc_marketing_rw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/mvc_with_components.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding />
         </state>
       </provider>
